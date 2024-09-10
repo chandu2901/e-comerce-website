@@ -1,0 +1,21 @@
+.container{
+    padding: 200px;
+    display: grid;
+}
+.button button{
+    color: red;
+ 
+    border: 0px 100px;
+    text-align: center;
+    margin-left: 300px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px 50px;
+}
+.col-sm-10{
+    width:350px;
+    height: 50px;
+    margin-left: 150px;
+   
+   
+}
