@@ -1,4 +1,4 @@
-// src/Profile.js
+
 import React, { useState } from 'react';
 import profile from '../profile/Profile.css'
 
@@ -33,7 +33,7 @@ const handleFileChange = (event) => {
     const formData = new FormData();
     formData.append('file', selectedFile);
 
-    // Perform the upload request (example using fetch)
+    
     fetch('https://your-upload-endpoint.com/upload', {
       method: 'POST',
       body: formData,

@@ -54,3 +54,34 @@ p{
     font-size: 45px;
     margin-top: 20px;
 }
+@media (max-width: 430px) {
+    .hero-left {
+      padding-left: 2vw; 
+    }
+  
+    .hero-left h2 {
+      font-size: 15vw; 
+    }
+  
+    .hand-icon {
+      font-size: 15vw; 
+    }
+  
+    .hand-icon img {
+      width: 20vw; 
+    }
+  
+    .hero-latest-btn {
+      width: 100%;
+      height: 45px;
+      font-size: 4vw; 
+      border-radius: 30px; 
+    }
+  
+    p {
+      font-size: 8vw; 
+    }
+    .hero-right img{
+        width: 150%;
+    }
+  }
