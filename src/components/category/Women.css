@@ -1,0 +1,38 @@
+.women{
+    display: flex  ;
+    flex-direction: row;
+    gap: 10px;
+    height: 90vh;
+    
+    
+}
+.women h2{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.women hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-left: 550px;
+   
+    
+}
+.women-item{
+    margin-top: 50px;
+   display: grid  ;
+    grid-template-columns: 400px 400px 300px ;
+    grid-template-rows: 400px 400px  ;
+    gap: 20px;
+    justify-content: space-around;
+    margin-left: 120px;
+
+   
+   
+   
+}

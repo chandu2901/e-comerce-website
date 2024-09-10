@@ -1,0 +1,38 @@
+.electronics{
+    display: flex  ;
+    flex-direction: row;
+    gap: 10px;
+    height: 90vh;
+    
+    
+}
+.electronics h2{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.electronics hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-left: 560px;
+   
+    
+}
+.electronics-item{
+    margin-top: 50px;
+   display: grid  ;
+    grid-template-columns: 400px 400px 400px ;
+    grid-template-rows: 400px 400px  ;
+    gap: 20px;
+    justify-content: space-around;
+    margin-left: 50px;
+
+   
+   
+   
+}
